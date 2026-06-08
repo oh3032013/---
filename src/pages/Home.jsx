@@ -433,6 +433,11 @@ function Home() {
       {/* 🔴 ADSterra Banner 728x90 */}
       <AdBanner type="banner728x90" />
 
+      {/* 🔴 ADSterra Smartlink */}
+      <div style={{ display: 'flex', justifyContent: 'center', padding: '16px 0', background: 'rgba(12, 6, 29, 0.2)' }}>
+        <AdBanner type="smartlink" />
+      </div>
+
       {/* 🔴 شريط الشركات الراعية (Brand sponsors carousel) */}
       <div className="brand-carousel-container">
         <div className="brand-carousel-track">
@@ -612,9 +617,6 @@ function Home() {
 
         </div>
       </section>
-
-      {/* 🔴 ADSterra Native Banner */}
-      <AdBanner type="nativeBanner" style={{ padding: '30px 0', background: 'rgba(12, 6, 29, 0.4)' }} />
 
       {/* 5. أدوات الجيمينج (My Gear - Fully Dynamic!) */}
       {gear && gear.length > 0 && (
